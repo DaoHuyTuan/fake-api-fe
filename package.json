@@ -7,11 +7,21 @@
     "build": "next build",
     "start": "next start",
     "clean": "rm -rf node_modules build",
-    "clean-build": "rm -rf build"
+    "clean-build": "rm -rf build",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "next": "10.0.2",
     "react": "17.0.1",
     "react-dom": "17.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@storybook/addon-actions": "^6.1.1",
+    "@storybook/addon-essentials": "^6.1.1",
+    "@storybook/addon-links": "^6.1.1",
+    "@storybook/react": "^6.1.1",
+    "babel-loader": "^8.2.1"
   }
 }
