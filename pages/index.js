@@ -4,16 +4,14 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className='font-sans'>
       <Head>
-        <title>Create Next App</title>
+        <title>Overview</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <TestComponent class='hello' />
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href='https://nextjs.org'>Next.js!</a>
-        </h1>
+        <h1 className={styles.title}>Overview</h1>
 
         <p className={styles.description}>
           Get started by editing{' '}
